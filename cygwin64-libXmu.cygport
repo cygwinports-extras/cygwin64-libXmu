@@ -1,0 +1,14 @@
+CROSS_HOST="x86_64-pc-cygwin"
+ORIG_PN="libXmu"
+inherit cross xorg
+
+NAME="cygwin64-libXmu"
+VERSION=1.1.1
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Xmu libraries for Cygwin 64bit toolchain"
+DESCRIPTION="X.Org miscellaneous utility libraries"
+
+CYGCONF_ARGS="--disable-docs"
+
+KEEP_LA_FILES="none"
